@@ -1,0 +1,2 @@
+# Powershell_fisher
+利用powershell收集用户浏览器中保存的密码，桌面办公文件，电脑硬件软件信息。发送到指定邮件
